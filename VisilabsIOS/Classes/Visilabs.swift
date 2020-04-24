@@ -276,7 +276,7 @@ open class Visilabs {
     // TODO:
     func urlizeProps(_ props: [String: String]) -> String {
         var propsURLPart = ""
-
+ 
         for propKey in props.keys {
             var stringValue: String? = nil
             if props[propKey] == nil || propKey.count == 0 {
