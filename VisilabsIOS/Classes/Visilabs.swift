@@ -484,7 +484,7 @@ open class Visilabs {
                 sendQueue.append(rtURL ?? "")
             }
         }
-        send()
+        //send()
     }
 
     public func login(exVisitorID: String, properties: [String: String] = [String: String]()) {
